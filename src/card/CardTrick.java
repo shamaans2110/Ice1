@@ -31,11 +31,12 @@ public class CardTrick {
             magicHand[i] = c;
         }
 
-        // Add a lucky card (hard-coded) to magicHand
-        Card luckyCard = new Card();
-        luckyCard.setValue(2);
-        luckyCard.setSuit("Clubs");
-        magicHand[0] = luckyCard;
+        
+
+        // Add this code to create the luckyCard object
+Card luckyCard = new Card();
+luckyCard.setValue(7); // Set the card number of your choosing
+luckyCard.setSuit("Diamonds"); // Set the suit of your choosing
 
         // Ask the user for Card value and suit
         Scanner scanner = new Scanner(System.in);
