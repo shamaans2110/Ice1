@@ -27,7 +27,6 @@ public class CardTrick {
             // Set a random value and suit for each card
             c.setValue(random.nextInt(13) + 1); // Values from 1 to 13
             c.setSuit(Card.SUITS[random.nextInt(4)]); // Random suit
-// shamaans
             magicHand[i] = c;
         }
 
