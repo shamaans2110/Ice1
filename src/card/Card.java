@@ -26,6 +26,10 @@ public class Card {
         return suit;
     }
 
+    public static String[] getSUITS() {
+        return SUITS;
+    }
+
     /**
      * @param suit the suit to set
      */
